@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sushrut Kasture</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.25/css/uikit.min.css" /> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.25/js/uikit.min.js"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.25/js/uikit-icons.min.js"></script> 
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<style type="text/css">
+		body{
+			font-family: 'Ubuntu', sans-serif;
+		}
+	</style>
+</head>
+<body>
+
+
+<div class="tabs is-centered is-link has-background-link " style="position: fixed; width: 100%;">
+	<ul >
+		<li ><a href="#home" uk-scroll class="has-text-white homesel">Home</a></li>
+		<li ><a href="#skills" uk-scroll class="has-text-white skillssel">Skills</a></li>
+		<li ><a href="#projects" uk-scroll class="has-text-white projectssel">Projects</a></li>
+		<li ><a href="#education" uk-scroll class="has-text-white educationsel">Education</a></li>
+		<li ><a href="#about" uk-scroll class="has-text-white aboutsel">About</a></li>
+	</ul>
+</div>
+
+
+<section class="hero is-link is-fullheight" id="home">
+	<div class="hero-body">
+		<div class="container">
+			<div class="columns">
+				<div class="column">
+					<div class="columns"> 
+						<p class="column is-size-2 " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+							Hello. This is Sushrut, a developer from India.
+						</p> 
+						<p class="column is-size-5" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+							I am a passionate web and application developer, who likes to see the blocks stacking as I write lines of code! I continuosly look for ideas for new projects and like to learn things and implement them and make something good out of them!
+						</p>  
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="hero is-link is-fullheight" id="skills">
+	<div class="hero-body">
+		<div class="container">
+			<div class="columns">
+				<p class="column is-size-2"  uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+					<br>Technologies I am good at and have been using
+				</p> 
+				<div class="column"  uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+					<div class="tag is-link is-size-4">C++</div>
+					<div class="tag is-link is-size-4">Python</div>
+					<div class="tag is-link is-size-4">Java</div><br>
+					<div class="tag is-link is-size-4">JavaScript</div>
+					<div class="tag is-link is-size-4">PHP</div>
+					<div class="tag is-link is-size-4">Git</div><br>
+					<div class="tag is-link is-size-4">DJango</div>
+					<div class="tag is-link is-size-4">SQL</div>
+					<div class="tag is-link is-size-4">MongoDB</div><br>
+					<div class="tag is-link is-size-4">Codeigniter</div>
+					<div class="tag is-link is-size-4">NodeJS</div><br>
+					<div class="tag is-link is-size-4">JQuery</div>
+					<div class="tag is-link is-size-4">CSS</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+</section>
+<section class="hero is-link is-fullheight" id="projects">
+	<div class="hero-body">
+		<!-- uk-scrollspy="cls: uk-animation-slide-left; repeat: true" -->
+		<div class="container" uk-scrollspy="target: > div; cls:uk-animation-fade; repeat:true; delay: 500">
+			<div class="columns">
+				<div class="column">
+					<div class="uk-card uk-card-default">
+						<div class="uk-card-header">
+							<h2>Virtual Lab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/sushrut111/vlab" uk-icon="icon:github;"></a></h2>
+
+						</div>
+						<div class="uk-card-body ">
+							<p>Developed an opeb source web application which was an integration of couple of open source electronics-laboratory simulators.</p>
+
+							<span class="uk-badge">NodeJS</span>
+							<span class="uk-badge">Materialize</span>
+							<span class="uk-badge">MongoDB</span>
+							<span class="uk-badge">JQuery</span>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="uk-card uk-card-default">
+						<div class="uk-card-header">
+							<h2>PeerShare &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/sushrut111/peershare" uk-icon="icon:github;"></a></h2>
+
+						</div>
+						<div class="uk-card-body ">
+							<p>Developed an application in JAVA to list and share files among the peers with the
+							application runnig on their machines.</p>
+
+							<span class="uk-badge">Java</span>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="uk-card uk-card-default">
+						<div class="uk-card-header">
+							<h2>VitalPlus &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/sushrut111/vitalplus" uk-icon="icon:github;"></a></h2>
+
+						</div>
+						<div class="uk-card-body ">
+							<p>Developed a utility app for windows phone, which gives the information regarding
+							the availability of a medicine at a nearby chemist shop.</p>
+
+							<span class="uk-badge">C#</span>
+							<span class="uk-badge">PHP</span>
+							<span class="uk-badge">MySQL</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="columns">
+				<div class="column">
+					<div class="uk-card uk-card-default">
+						<div class="uk-card-header">
+							<h2>ChatBox &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/sushrut111/chatbox" uk-icon="icon:github;"></a></h2>
+
+						</div>
+						<div class="uk-card-body ">
+							<p>Developed a realtime web application for chatting over the local network on the campus LAN. </p>
+
+							<span class="uk-badge">NodeJS</span>
+							<span class="uk-badge">Materialize</span>
+							<span class="uk-badge">MySQL</span>
+							<span class="uk-badge">JQuery</span>
+							<span class="uk-badge">PHP</span>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="uk-card uk-card-default">
+						<div class="uk-card-header">
+							<h2>Appla Hishob &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/sushrut111/applahishob" uk-icon="icon:github;"></a></h2>
+
+						</div>
+						<div class="uk-card-body ">
+							<p>Developed a social money management android application for keeping track of how much do your friends owe you.</p>
+
+							<span class="uk-badge">Java</span>
+							<span class="uk-badge">Android</span>
+							<span class="uk-badge">PHP</span>
+							<span class="uk-badge">MySQL</span>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="uk-card uk-card-default">
+						<div class="uk-card-header">
+							<h2>Fairyland &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://simrutfairyland.me/love" uk-icon="icon:github;"></a></h2>
+
+						</div>
+						<div class="uk-card-body ">
+							<p>Developed a web and webview android app for couples to share their thoughts about each others.</p>
+
+							<span class="uk-badge">python</span>
+							<span class="uk-badge">Django</span>
+							<span class="uk-badge">Bulma-CSS</span>
+							<span class="uk-badge">MySQL</span>
+							<span class="uk-badge">JQuery</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+<section class="hero is-link is-fullheight" id="education">
+	<div class="hero-body">
+		<div class="container">
+			<div class="columns">
+				<div class="column">
+					<div class="columns"> 
+						<p class="column is-size-2 " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+							Hello. This is Sushrut, a developer from India.
+						</p> 
+						<p class="column is-size-5" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+							I am a passionate web and application developer, who likes to see the blocks stacking as I write lines of code! I continuosly look for ideas for new projects and like to learn things and implement them and make something good out of them!
+						</p>  
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="hero is-link is-fullheight" id="about">
+	<div class="hero-body">
+		<div class="container" uk-scrollspy="cls: uk-animation-scale-up; repeat: true" >
+			<div class="columns">
+				<div class="column is-size-4">
+					Thanks for coming this far. This is me, Sushrut. I graduated from National Institute of Technology, Warangal in 2018 with a Bachelor's degree in Electronics and Communication Engineering. I am currently working at. I have developed many web applications and would like to work on many more. Please feel free to contact me to know more about me, to give me a feedback or to work with me. Check out my profiles below.
+					<br><br>
+					<center>
+						<div class="is-centered columns is-mobile">
+							<a href="https://github.com/sushrut111" class="column" uk-icon="icon: github; ratio: 2;"></a>
+							<a href="https://linkedin.com/in/sushrut345" class="column" uk-icon="icon: linkedin; ratio: 2;"></a>
+							<a href="mailto:kasturesushrut@gmail.com" class="column" uk-icon="icon: mail; ratio: 2;"></a>
+							<a href="https://facebook.com/sushrut111" class="column" uk-icon="icon: facebook; ratio: 2;"></a>
+							<a href="https://instagram.com/sushrut111" class="column" uk-icon="icon: instagram; ratio: 2;"></a>
+							<a href="https://twitter.com/sushrut345" class="column" uk-icon="icon: twitter; ratio: 2;"></a>
+						</div>
+					</center>
+
+				</div>
+				<div class="column">
+					<!-- <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -200" style="background-image: url('/media/folio1.jpeg');">
+					</div> -->
+					<img data-src="./folio.jpeg" width="1800" height="1200" alt="" uk-img>
+					
+					
+				</div>
+			</div>
+			<div>
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+</body>
+</html>
+<script src="./helper.js"></script>
+<script type="text/javascript">
+	
+</script>
