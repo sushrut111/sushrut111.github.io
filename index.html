@@ -26,7 +26,7 @@
 		<li ><a href="#home" uk-scroll class="has-text-white homesel">Home</a></li>
 		<li ><a href="#skills" uk-scroll class="has-text-white skillssel">Skills</a></li>
 		<li ><a href="#projects" uk-scroll class="has-text-white projectssel">Projects</a></li>
-		<li ><a href="#education" uk-scroll class="has-text-white educationsel">Education</a></li>
+		<!-- <li ><a href="#education" uk-scroll class="has-text-white educationsel">Education</a></li> -->
 		<li ><a href="#about" uk-scroll class="has-text-white aboutsel">About</a></li>
 	</ul>
 </div>
@@ -82,10 +82,10 @@
 <section class="hero is-link is-fullheight" id="projects">
 	<div class="hero-body">
 		<!-- uk-scrollspy="cls: uk-animation-slide-left; repeat: true" -->
-		<div class="container" uk-scrollspy="target: > div; cls:uk-animation-fade; repeat:true; delay: 500">
+		<div class="container">
 			<div class="columns">
 				<div class="column">
-					<div class="uk-card uk-card-default">
+					<div class="uk-card uk-card-default" uk-scrollspy="cls:uk-animation-slide-left; repeat:true; delay: 500">
 						<div class="uk-card-header">
 							<h2>Virtual Lab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/sushrut111/vlab" uk-icon="icon:github;"></a></h2>
 
@@ -101,7 +101,7 @@
 					</div>
 				</div>
 				<div class="column">
-					<div class="uk-card uk-card-default">
+					<div class="uk-card uk-card-default" uk-scrollspy="cls:uk-animation-slide-top; repeat:true; delay: 500">
 						<div class="uk-card-header">
 							<h2>PeerShare &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/sushrut111/peershare" uk-icon="icon:github;"></a></h2>
 
@@ -115,7 +115,7 @@
 					</div>
 				</div>
 				<div class="column">
-					<div class="uk-card uk-card-default">
+					<div class="uk-card uk-card-default" uk-scrollspy="cls:uk-animation-slide-right; repeat:true; delay: 500">
 						<div class="uk-card-header">
 							<h2>VitalPlus &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/sushrut111/vitalplus" uk-icon="icon:github;"></a></h2>
 
@@ -133,7 +133,7 @@
 			</div>
 			<div class="columns">
 				<div class="column">
-					<div class="uk-card uk-card-default">
+					<div class="uk-card uk-card-default" uk-scrollspy="cls:uk-animation-slide-left; repeat:true; delay: 500">
 						<div class="uk-card-header">
 							<h2>ChatBox &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/sushrut111/chatbox" uk-icon="icon:github;"></a></h2>
 
@@ -150,7 +150,7 @@
 					</div>
 				</div>
 				<div class="column">
-					<div class="uk-card uk-card-default">
+					<div class="uk-card uk-card-default" uk-scrollspy="cls:uk-animation-slide-bottom; repeat:true; delay: 500">
 						<div class="uk-card-header">
 							<h2>Appla Hishob &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/sushrut111/applahishob" uk-icon="icon:github;"></a></h2>
 
@@ -166,7 +166,7 @@
 					</div>
 				</div>
 				<div class="column">
-					<div class="uk-card uk-card-default">
+					<div class="uk-card uk-card-default" uk-scrollspy="cls:uk-animation-slide-right; repeat:true; delay: 500">
 						<div class="uk-card-header">
 							<h2>Fairyland &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://simrutfairyland.me/love" uk-icon="icon:github;"></a></h2>
 
@@ -187,25 +187,7 @@
 		</div>
 	</div>
 </section>
-<section class="hero is-link is-fullheight" id="education">
-	<div class="hero-body">
-		<div class="container">
-			<div class="columns">
-				<div class="column">
-					<div class="columns"> 
-						<p class="column is-size-2 " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
-							Hello. This is Sushrut, a developer from India.
-						</p> 
-						<p class="column is-size-5" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
-							I am a passionate web and application developer, who likes to see the blocks stacking as I write lines of code! I continuosly look for ideas for new projects and like to learn things and implement them and make something good out of them!
-						</p>  
-					</div>
 
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 <section class="hero is-link is-fullheight" id="about">
 	<div class="hero-body">
 		<div class="container" uk-scrollspy="cls: uk-animation-scale-up; repeat: true" >
