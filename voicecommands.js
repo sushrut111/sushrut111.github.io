@@ -3,7 +3,7 @@
   // Let's define our first command. First the text we expect, and then the function it should call
   var commands = {
     'scroll (to) *tag': scroll,
-    'show (to) *tag': scroll,
+    'show (me) *tag': scroll,
     'go (to) *tag': scroll,
   };
 

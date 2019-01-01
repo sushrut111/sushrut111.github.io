@@ -29,7 +29,7 @@
 </head>
 <body>
 
-
+<span uk-offcanvas="push"></span>
 <nav class="tabs is-centered is-link has-background-link " style="position: fixed; width: 100%;">
 	<ul >
 		<li ><a href="#home" uk-scroll class="has-text-white homesel">Home</a></li>
@@ -37,9 +37,24 @@
 		<li ><a href="#projects" uk-scroll class="has-text-white projectssel">Projects</a></li>
 		<!-- <li ><a href="#education" uk-scroll class="has-text-white educationsel">Education</a></li> -->
 		<li ><a href="#about" uk-scroll class="has-text-white aboutsel">About</a></li>
+		<li><a uk-toggle="target: #my-id" type="button"><span class="icon"><i class="fas fa-microphone mdi mdi-light"></i></span></a></li>
 	</ul>
 </nav>
 
+
+
+<div id="my-id" uk-offcanvas="mode: reveal; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+        <p class="is-size-2">Voice navigation</p>
+
+        <p>You can go to different sections of this page using voice commands if you allow this page to use your microphone.<br>Use commands like go to or scroll to or show me and then say the section name.<br>Eg. Say "show me about"<br>Bingo!! It works!</p>
+
+
+    </div>
+</div>
 
 <section class="hero is-link is-fullheight" id="home">
 	<div class="hero-body">
@@ -47,6 +62,9 @@
 			<div class="columns">
 				<div class="column">
 					<div class="columns"> 
+
+
+
 						<p class="column is-size-2" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
 							Hello. This is Sushrut, an application developer.<br> Please take a look around!
 						</p> 
