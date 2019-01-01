@@ -1,12 +1,16 @@
-if (annyang) {
+
+    if (annyang) {
   // Let's define our first command. First the text we expect, and then the function it should call
   var commands = {
-    'show me *tag': showFlickr,
+    'scroll (to) *tag': scroll,
+    'show (to) *tag': scroll,
+    'go (to) *tag': scroll,
   };
 
-  function showFlickr(argument) {
-    console.log(argument);
-    window.alert("sushrut");
+  function scroll(argument) {
+    x = UIkit.scroll("#home");
+    x.scrollTo("#"+argument);
+
   }
   // Add our commands to annyang
   annyang.addCommands(commands);
@@ -14,3 +18,7 @@ if (annyang) {
   // Start listening. You can call this here, or attach this call to an event, button, etc.
   annyang.start();
 }
+
+
+
+
